@@ -232,8 +232,10 @@ dlv  调试工具
 protoc-gen-go go protobuf 工具
 protoc-gen-gofast gogoprotobuf工具
 goconvey awesome的testing工具
-```    
-
-
-
+```   
+#### 新增
+```   
+go get -u -v github.com/jgautheron/goconst/cmd/goconst goconst 会查找重复的字符串，这些字符串可以抽取成常量。
+go get -u -v github.com/dominikh/go-tools/tree/master/simple gosimple 提供信息，帮助你了解哪些代码可以简化。
+```  
 
